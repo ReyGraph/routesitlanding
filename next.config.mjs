@@ -17,6 +17,8 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  // Ensure proper routing on Vercel
+  trailingSlash: false,
 }
 
 export default nextConfig
